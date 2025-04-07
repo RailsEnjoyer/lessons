@@ -10,3 +10,12 @@ manager.add_task(task2)
 
 puts "\nAll Tasks:"
 manager.list_tasks
+
+puts "\nSearching for 'git':"
+manager.search("git")
+
+puts "\nDeleting task #1:"
+manager.delete_task(1)
+
+puts "\nAll tasks after deletion:"
+manager.list_tasks

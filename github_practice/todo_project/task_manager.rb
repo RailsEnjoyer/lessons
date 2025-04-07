@@ -37,4 +37,13 @@ class TaskManager
       puts "Invalid task number"
     end
   end  
+
+  def complete_task(index)
+    if index.between?(1, @tasks.length)
+      @tasks[index - 1].completed = true
+      puts "Task marked as completed!"
+    else
+      puts "Invalid task number"
+    end
+  end  
 end

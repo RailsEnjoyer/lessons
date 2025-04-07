@@ -19,3 +19,9 @@ manager.delete_task(1)
 
 puts "\nAll tasks after deletion:"
 manager.list_tasks
+
+puts "\nMarking first task as completed:"
+manager.complete_task(1)
+
+puts "\nAll tasks after completion:"
+manager.list_tasks

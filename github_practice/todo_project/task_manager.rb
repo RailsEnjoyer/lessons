@@ -46,4 +46,13 @@ class TaskManager
       puts "Invalid task number"
     end
   end  
+
+  def mark_important(index)
+    if index.between?(1, @tasks.length)
+      @tasks[index - 1].important = true
+      puts "Task marked as important!"
+    else
+      puts "Invalid task number"
+    end
+  end  
 end

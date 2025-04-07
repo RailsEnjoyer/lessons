@@ -25,3 +25,9 @@ manager.complete_task(1)
 
 puts "\nAll tasks after completion:"
 manager.list_tasks
+
+puts "\nMarking task #1 as important:"
+manager.mark_important(1)
+
+puts "\nAll tasks:"
+manager.list_tasks

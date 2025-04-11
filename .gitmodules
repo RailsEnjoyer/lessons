@@ -1,3 +1,6 @@
 [submodule "store"]
 	path = store
 	url = ./store
+[submodule "expense_tracker"]
+	path = expense_tracker
+	url = ./expense-tracker
